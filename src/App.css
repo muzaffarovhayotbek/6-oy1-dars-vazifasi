@@ -117,7 +117,10 @@
 
   background-color: #012f34;
 }
-
+.section__container {
+  display: flex;
+  justify-content: space-between;
+}
 .section-title {
   width: 445px;
 }
@@ -199,6 +202,121 @@
   color: rgba(255, 255, 255, 1);
 }
 
+.article {
+  padding-top: 140px;
+  background-color: #004047;
+  padding-bottom: 56px;
+}
+
+.article-title {
+  width: 932px;
+}
+.article-title h2 {
+  font-family: 'Livvic';
+  font-size: 48px;
+  font-weight: 700;
+  line-height: 48px;
+  color: #ffffff;
+}
+.article-title span {
+  font-family: 'Livvic';
+  font-size: 48px;
+  font-weight: 700;
+  line-height: 48px;
+  color: #012f34;
+}
+.article-main {
+  display: flex;
+  padding-top: 56px;
+  gap: 30px;
+}
+.article-main-first p {
+  width: 350px;
+  padding-bottom: 24px;
+  font-family: 'Livvic';
+  font-size: 15px;
+  font-weight: 600;
+  line-height: 25px;
+  color: #ffffff;
+}
+.article-main-first h2 {
+  font-family: 'Livvic';
+  font-size: 18px;
+  font-weight: 700;
+  line-height: 28px;
+  color: #79c8c7;
+  text-align: center;
+}
+.article-main-first h3 {
+  font-family: 'Livvic';
+  font-size: 13px;
+  font-style: italic;
+  font-weight: 500;
+  line-height: 18px;
+  text-align: center;
+  color: #ffffff;
+  padding-top: 2px;
+}
+
+.article-main-two p {
+  width: 350px;
+  font-family: 'Livvic';
+  font-size: 15px;
+  font-weight: 600;
+  line-height: 25px;
+  text-align: center;
+  color: #ffffff;
+}
+.article-main-two h3{
+  padding-top: 24px;
+  font-family: 'Livvic';
+font-size: 18px;
+font-weight: 700;
+line-height: 28px;
+text-align: center;
+color: #79C8C7;
+}
+.article-main-two h4{
+  padding-top: 2px;
+  font-family: 'Livvic';
+font-size: 13px;
+font-style: italic;
+font-weight: 500;
+line-height: 18px;
+text-align: center;
+color: #FFFFFF;
+}
+
+.article-main-three p{
+  width: 350px;
+  font-family: 'Livvic';
+font-size: 15px;
+font-weight: 600;
+line-height: 25px;
+text-align: center;
+color: #FFFFFF;
+}
+.article-main-three h2{
+  padding-top: 24px;
+  padding-bottom: 2px;
+  font-family: 'Livvic';
+font-size: 18px;
+font-weight: 700;
+line-height: 28px;
+text-align: center;
+color: #79C8C7;
+
+}
+.article-main-three h3{
+  font-family: 'Livvic';
+font-size: 13px;
+font-style: italic;
+font-weight: 500;
+line-height: 18px;
+text-align: center;
+color: #FFFFFF;
+
+}
 @media (max-width: 992px) {
   .container {
     padding: 30px;
@@ -626,7 +744,6 @@
   }
 }
 
-
 @media (max-width: 480px) {
   .container {
     padding: 15px;
@@ -764,7 +881,6 @@
     line-height: 12px;
   }
 }
-
 
 @media (max-width: 360px) {
   .container {
