@@ -84,7 +84,6 @@ function App() {
                 <span>success stories.</span>
               </h2>
             </div>
-
             <div className="article-main">
               <div className="article-main-first">
                 <p>
