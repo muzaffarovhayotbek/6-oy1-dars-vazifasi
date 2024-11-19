@@ -1,0 +1,25 @@
+@import url("./fonts.css");
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+.container {
+  max-width: 1110px;
+  width: 100%;
+  margin: 0 auto;
+}
+
+li {
+  list-style: none;
+}
+
+a {
+  text-decoration: none;
+}
+
+body {
+  font-family: "Livvic", sans-serif;
+}
