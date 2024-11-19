@@ -316,6 +316,42 @@
   text-align: center;
   color: #ffffff;
 }
+
+.aside {
+  background-color: #f67e7e;
+  padding-top: 76px;
+  padding-bottom: 76px;
+}
+.aside__container {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+.aside__container h2 {
+  width: 504px;
+  font-family: 'Livvic';
+  font-size: 48px;
+  font-weight: 700;
+  line-height: 48px;
+  color: #012f34;
+}
+.aside__container h3 {
+  padding: 9px 33px 11px 32px;
+  border: 2px solid #012f34;
+  border-radius: 24px;
+  font-family: 'Livvic';
+  font-size: 18px;
+  font-weight: 600;
+  line-height: 28px;
+  color: #012f34;
+  cursor: pointer;
+}
+.aside__container h3:hover {
+  background-color: #e06060;
+}
+.aside__container h3:active{
+  transform: scale(0.95);
+}
 @media (max-width: 992px) {
   .container {
     padding: 30px;

@@ -116,6 +116,12 @@ function App() {
             </div>
           </div>
         </article>
+        <aside className="aside">
+          <div className="container aside__container">
+            <h2>Ready to get started?</h2>
+            <h3>contact us</h3>
+          </div>
+        </aside>
       </div>
     </div>
   );
